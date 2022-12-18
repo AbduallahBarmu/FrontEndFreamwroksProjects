@@ -1,0 +1,63 @@
+.info-form {
+  padding: 1rem;
+  margin-bottom: 2rem;
+  margin-top: 5rem;
+  border: 2rem;
+  border-radius: 0.5rem;
+  background-color: #03071e;
+}
+.header {
+  text-align: center;
+  font-size: 5em;
+}
+.info-form {
+  color: #ffe5d9;
+}
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: space-between;
+  padding-top: 1rem;
+  border: 2rem;
+  border-radius: 0.5rem;
+  background-color: #ffe5d9;
+}
+
+.gallery img {
+  transition: 1s;
+  padding: 10px;
+  width: 250px;
+  height: 300px;
+  border-radius: 1rem;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border: 2rem;
+  border-radius: 0.5rem;
+  background-color: #03071e;
+
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+}
+.links a {
+  margin: 2rem;
+  font-weight: bold;
+  color: floralwhite;
+  text-decoration: none;
+}
+
+.btn {
+  margin: 1rem;
+  padding: 1rem;
+  position: relative;
+  right: 0.5rem;
+  font-weight: bold;
+  color: black;
+  background-color: brown;
+}

@@ -1,0 +1,22 @@
+.note {
+  background-color: #fef68a;
+  overflow-y: hidden;
+  border-radius: 10px;
+  padding: 1rem;
+  min-height: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* to keep the space in the text */
+  white-space: pre-wrap;
+}
+
+.note-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.delete-icon {
+  color: red;
+  font-size: 20px;
+}

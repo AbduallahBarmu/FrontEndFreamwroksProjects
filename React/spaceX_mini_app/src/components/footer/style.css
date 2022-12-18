@@ -1,0 +1,15 @@
+.site-footer {
+  background-color: #03071e;
+  color: blanchedalmond;
+  margin-top: 4rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.copyright-text a {
+  padding: 0.5rem;
+  text-decoration: none;
+}

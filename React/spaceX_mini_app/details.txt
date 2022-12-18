@@ -1,0 +1,22 @@
+{
+  launch(id: 108) {
+    mission_name  
+    links {
+      flickr_images
+      article_link
+      video_link
+      wikipedia
+    }  
+    launch_date_utc
+    id
+    details
+    launch_year
+    launch_success
+    rocket {
+      rocket_name 
+    }
+    launch_site {
+      site_name
+    }
+  }
+}

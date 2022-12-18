@@ -1,0 +1,23 @@
+{
+  launchesPast(limit: 108) {
+    links {
+      flickr_images
+      article_link
+      video_link
+      wikipedia
+    }
+    id
+    launch_site {
+      site_name
+    }
+    launch_date_utc
+    ships {
+      name
+      image
+    }
+    launch_success
+    launch_year
+  }
+}
+
+

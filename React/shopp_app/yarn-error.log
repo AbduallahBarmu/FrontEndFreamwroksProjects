@@ -1,0 +1,36 @@
+Arguments: 
+  /home/sezary/.nvm/versions/node/v15.14.0/bin/node /home/sezary/.yarn/bin/yarn.js add @material-ui/core @material-ui/icon
+
+PATH: 
+  /home/sezary/.rvm/gems/ruby-2.6.1/bin:/home/sezary/.rvm/gems/ruby-2.6.1@global/bin:/home/sezary/.rvm/rubies/ruby-2.6.1/bin:/home/sezary/.yarn/bin:/home/sezary/.config/yarn/global/node_modules/.bin:/home/sezary/.nvm/versions/node/v15.14.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Users/HP/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/HP/AppData/Local/Programs/Python/Python39/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Java/jdk-17.0.1/bin:/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/HP/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/HP/AppData/Roaming/npm:/mnt/c/Users/HP/AppData/Local/atom/bin:/mnt/c/Program Files/heroku/bin:/snap/bin:/home/sezary/.rvm/bin:/home/sezary/.rvm/bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  15.14.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@material-ui%2ficon: Not found
+      at Request.params.callback [as _callback] (/home/sezary/.yarn/lib/cli.js:66988:18)
+      at Request.self.callback (/home/sezary/.yarn/lib/cli.js:140749:22)
+      at Request.emit (node:events:369:20)
+      at Request.<anonymous> (/home/sezary/.yarn/lib/cli.js:141721:10)
+      at Request.emit (node:events:369:20)
+      at IncomingMessage.<anonymous> (/home/sezary/.yarn/lib/cli.js:141643:12)
+      at Object.onceWrapper (node:events:475:28)
+      at IncomingMessage.emit (node:events:381:22)
+      at endReadableNT (node:internal/streams/readable:1307:12)
+      at processTicksAndRejections (node:internal/process/task_queues:81:21)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

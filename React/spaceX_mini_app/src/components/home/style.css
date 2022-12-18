@@ -1,0 +1,28 @@
+body {
+  background-color: #3d405b;
+}
+.header {
+  text-align: center;
+  font-size: 5em;
+  margin-bottom: 10%;
+  color: cornsilk;
+}
+
+.home-gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: space-evenly;
+  background-color: #ffe5d9;
+  border-radius: 0.5rem;
+}
+
+.home-gallery img {
+  transition: 1s;
+  margin: 0.825rem;
+  padding: 0.625rem;
+  width: 15.625rem;
+  height: 18.75rem;
+  border-radius: 1rem;
+}
